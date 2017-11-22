@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f371f097-e7cc-4c11-ac2f-adafe580f5e8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cube.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DEBUG.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/IPoint.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Light.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Matrix.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/RGB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Ray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/RaytraceTask.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Triangle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Vec3D.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_0_0.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SDRaytracer.java" afterPath="$PROJECT_DIR$/src/SDRaytracer.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -348,12 +328,20 @@
       <option name="presentableId" value="Default" />
       <updated>1511268237947</updated>
       <workItem from="1511268239610" duration="515000" />
-      <workItem from="1511273707917" duration="6406000" />
+      <workItem from="1511273707917" duration="6473000" />
     </task>
+    <task id="LOCAL-00001" summary="moved classes to own files for better visibility">
+      <created>1511364694395</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1511364694395</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6921000" />
+    <option name="totallyTimeSpent" value="6988000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-784" y="-1440" width="2560" height="1440" extended-state="6" />
@@ -393,6 +381,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="moved classes to own files for better visibility" />
+    <option name="LAST_COMMIT_MESSAGE" value="moved classes to own files for better visibility" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
