@@ -56,16 +56,15 @@ public class SDRaytracer extends JFrame
    
 public static void  main(String argv[])
   { 
-  long start = System.currentTimeMillis();
+  PrintTime runtime = new PrintTime();
+  runtime.start();
   SDRaytracer sdr=new SDRaytracer();
-  long end = System.currentTimeMillis();
-  long time = end - start;
-  System.out.println("time: " + time + " ms");
+  System.out.println("time: " + runtime.end() + " ms");
   System.out.println("nrprocs="+sdr.nrOfProcessors);
   }
 
 void profileRenderImage(){
-  long end, start, time;
+  PrintTime time = new PrintTime();
 
   renderImage(); // initialisiere Datenstrukturen, erster Lauf verf�lscht sonst Messungen
   
@@ -74,13 +73,9 @@ void profileRenderImage(){
    maxRec=procs-1;
    System.out.print(procs);
    for(int i=0; i<10; i++)
-     { start = System.currentTimeMillis();
-
+     { time.start();
        renderImage();
-
-       end = System.currentTimeMillis();
-       time = end - start;
-       System.out.print(";"+time);
+       System.out.print(";"+time.end());
      }
     System.out.println("");
    }
